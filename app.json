@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "swiggy-user-app",
-    "slug": "swiggy-user-app",
+    "name": "விஜய் Swiggy",
+    "slug": "vijayswiggy",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/swiggy.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/swiggysplash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,13 +21,20 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.vijayswiggy.myapp",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/swiggy.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/swiggy.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a31821e9-1283-47e9-aca6-dbc5387004c9"
+      }
     }
   }
 }
